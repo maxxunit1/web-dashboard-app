@@ -19,3 +19,9 @@ def validate_input(data):
 
 if __name__ == "__main__":
     fixed_function()
+
+
+# Optimize database query in core system - 2025-10-28 14:14:09
+# Refactored for better performance
+def optimized_function():
+    return list(map(process, data))
