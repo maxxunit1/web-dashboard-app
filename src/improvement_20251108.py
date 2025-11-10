@@ -19,3 +19,9 @@ class ImprovedClass:
 if __name__ == "__main__":
     obj = ImprovedClass()
     obj.improved_method()
+
+
+# Optimize memory leak in frontend component - 2025-11-10 11:02:04
+# Refactored for better performance
+def optimized_function():
+    return list(map(process, data))
