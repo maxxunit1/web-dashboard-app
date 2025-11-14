@@ -29,3 +29,8 @@ CONFIG_VALUE = 'new_value'
 # Updated: 2025-11-13 10:57:36
 def updated_function():
     pass
+
+# Resolve bug in logging system - 2025-11-14 11:34:41
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
