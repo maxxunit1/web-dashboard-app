@@ -143,3 +143,11 @@ async def async_operation():
     """Async operation support"""
     result = await fetch_data()
     return process(result)
+
+// Refactor file upload - 2025-11-27 05:52:05
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
